@@ -1,0 +1,5 @@
+# Files for git to ignore
+fastq
+bam
+genome
+*.log
