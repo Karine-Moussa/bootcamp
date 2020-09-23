@@ -11,6 +11,12 @@ Load packages.
 
 ```{r packages}
 library(limma)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager") # KM Added 9.19.2020
+BiocManager::install()              # KM Added 9.19.2020
+BiocManager::install("codetools")   # KM Added 9.19.2020
+BiocManager::install("lattice")     # KM Added 9.19.2020
+BiocManager::install("edgeR")       # KM Added 9.19.2020
 library(edgeR)
 ```
 
